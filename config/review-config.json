@@ -5,14 +5,16 @@
     "testcase_glob": "相对于本项目根目录的用例 CSV 文件匹配规则。",
     "results_dir": "审查结果 CSV 的输出目录，相对于本项目根目录。",
     "result_suffix": "追加到原 CSV 文件名末尾的后缀，用于生成审查结果文件名。",
-    "result_column": "追加到审查结果 CSV 最后一列的列名。",
+    "result_status_column": "追加到审查结果 CSV 中的实现状态列名，内容只填写状态，便于筛选。",
+    "result_explanation_column": "紧接实现状态列之后的说明列名，填写判断依据、代码路径和行号。",
     "review_mode": "审查模式。static_only 表示只静态阅读代码，不运行代码或测试。"
   },
-  "repository_url": "",
-  "default_branch": "main",
+  "repository_url": "ssh://git@gitlab.svfactory.com:22222/pdd/be/vla/vla-label-studio.git",
+  "default_branch": "fat",
   "testcase_glob": "testcase/*.csv",
   "results_dir": "results",
   "result_suffix": "-代码审查",
-  "result_column": "开发代码实现情况",
+  "result_status_column": "实现结果",
+  "result_explanation_column": "说明解释",
   "review_mode": "static_only"
 }

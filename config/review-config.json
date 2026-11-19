@@ -1,0 +1,18 @@
+{
+  "_说明": {
+    "repository_url": "开发项目的 Git 仓库地址。当前留空，取得目标项目读取权限后再填写。可使用 SSH 地址。",
+    "default_branch": "未在对话中指定代码版本时使用的默认分支。审查时仍需记录实际检出的提交 SHA。",
+    "testcase_glob": "相对于本项目根目录的用例 CSV 文件匹配规则。",
+    "results_dir": "审查结果 CSV 的输出目录，相对于本项目根目录。",
+    "result_suffix": "追加到原 CSV 文件名末尾的后缀，用于生成审查结果文件名。",
+    "result_column": "追加到审查结果 CSV 最后一列的列名。",
+    "review_mode": "审查模式。static_only 表示只静态阅读代码，不运行代码或测试。"
+  },
+  "repository_url": "",
+  "default_branch": "main",
+  "testcase_glob": "testcase/*.csv",
+  "results_dir": "results",
+  "result_suffix": "-代码审查",
+  "result_column": "开发代码实现情况",
+  "review_mode": "static_only"
+}
